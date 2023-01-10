@@ -53,10 +53,10 @@ $ yarn start
 - [x] Some error handlings
 - [x] Mocks
 ### Missings
-- [] Webhooks
-- [] Backend Part
-- [] E2E Tests
-- [] Import CSV (only mocked string)
+- [ ] Webhooks
+- [ ] Backend Part
+- [ ] E2E Tests
+- [ ] Import CSV (only mocked string)
 
 ## Contributors
 
