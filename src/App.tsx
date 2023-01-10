@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Dashboard from './pages/Dashboard';
+import GlobalStyles from './styles/global'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { createServer, Model } from "miragejs";
+import {csvFile} from './utils';
+import { DebtsProvider } from './hooks/DebtsContext';
+
+createServer({
+
+  models: {
+    debt: Model,
+  },
+
+  seeds(server){    
+      server.db.loadData({
+        debts: [
+          {data: csvFile}
+        ]
+    })
+  },
+
+  routes() {
+    this.namespace = "api";
+
+    this.get("/debts", () => {
+      return this.schema.first('debt')
+    });    
+  },
+});
+
+
+const App: React.FC = () => (
+  <>  
+    <GlobalStyles /> 
+    <DebtsProvider>
+      <Dashboard />
+    </DebtsProvider> 
+  </>
+);
 
 export default App;
