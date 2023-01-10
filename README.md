@@ -1,4 +1,4 @@
-# PokéShop
+# Billet Charger
 
 > Check your boletos from a csv, who is in debt and who isn't
 
@@ -12,7 +12,7 @@
 
 ***HOME***
 
-[![Home Page](https://raw.githubusercontent.com/iago1501/pokeshop/master/public/images/homepage.png)]()
+[![Home Page](https://raw.githubusercontent.com/iago1501/Billet-Charger/master/public/images/home.png)]()
 
 ## Acesso
 ## Instalação
