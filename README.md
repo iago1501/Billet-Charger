@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# PokéShop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Check your boletos from a csv, who is in debt and who isn't
 
-## Available Scripts
+> Code Challenge
 
-In the project directory, you can run:
+> Project made with React Hooks, Context API and MirageJS;
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)]
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+***HOME***
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![Home Page](https://raw.githubusercontent.com/iago1501/pokeshop/master/public/images/homepage.png)]()
 
-### `npm run build`
+## Acesso
+## Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- To run localy you need to have yarn or npm in your machine
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Clone
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Clone the repo in the url: `https://github.com/iago1501/Billet-Charger.git`
 
-### `npm run eject`
+### Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- After that
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Install and run with the following commands:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```shell
+$ yarn
+$ yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Stacks used
 
-## Learn More
+- React;
+- Context API;
+- MirageJS;
+- Styled Components;
+- Axios;
+- Jest
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Challenge Requirements Checklist
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Done
+- [x] Read a CSV list from an API 
+- [x] Charge indebts often and dispatch emails (mocked)
+- [x] Tests
+- [x] UI
+- [x] Some error handlings
+- [x] Mocks
+### Missings
+- [] Webhooks
+- [] Backend Part
+- [] E2E Tests
+- [] Import CSV (only mocked string)
+
+## Desenvolvedor
+
+|**Iago Espinoza** |
+| :---: |
+| [![Iago1501](https://avatars2.githubusercontent.com/u/13649073?s=400&u=7171c01e60916597984c2802b7753cef11563e9d&v=4&s=100)](https://github.com/iago1501)    |
+| <a href="https://github.com/iago1501" target="_blank">`github.com/iago1501`</a> |
+
+---
