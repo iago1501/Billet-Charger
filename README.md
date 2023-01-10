@@ -14,8 +14,8 @@
 
 [![Home Page](https://raw.githubusercontent.com/iago1501/Billet-Charger/master/public/images/home.png)]()
 
-## Acesso
-## Instalação
+## Run
+## Install
 
 - To run localy you need to have yarn or npm in your machine
 
@@ -58,7 +58,7 @@ $ yarn start
 - [] E2E Tests
 - [] Import CSV (only mocked string)
 
-## Desenvolvedor
+## Contributors
 
 |**Iago Espinoza** |
 | :---: |
